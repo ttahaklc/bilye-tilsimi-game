@@ -1,0 +1,32 @@
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+*.csproj
+*.sln
+*.slnx
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+# Xcode çıktısı (Unity'den yeniden üretilir)
+BilyeTilsimi-iOS/
+# Android keystore asla repoya girmesin
+*.keystore
+*.jks
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+# Ağır mağaza görselleri (repoya girmez, ayrı zip ile verilir)
+/AppStore/02-Screenshots/
+Assets/Screenshots/

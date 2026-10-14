@@ -1,0 +1,13 @@
+namespace Bilye
+{
+    /// <summary>Strings added after the RN port (About / Privacy). Same lang order as LocData.Langs.</summary>
+    public static class LocExtra
+    {
+        public static readonly System.Collections.Generic.Dictionary<string, string[]> Table = new System.Collections.Generic.Dictionary<string, string[]>
+        {
+            { "about", new[] { "Hakkında ve Gizlilik", "About & Privacy", "关于与隐私", "जानकारी और गोपनीयता", "Acerca de y privacidad", "حول اللعبة والخصوصية", "À propos et confidentialité" } },
+            { "privacyBody", new[] { "Bu oyun hiçbir kişisel veri toplamaz, saklamaz ve paylaşmaz. Hesap, reklam, izleyici veya satın alma yoktur. İlerlemen ve ayarların yalnızca bu cihazda tutulur. Oyun tamamen çevrimdışı çalışır.", "This game does not collect, store or share any personal data. There are no accounts, ads, trackers or purchases. Your progress and settings stay on this device only. The game works fully offline.", "本游戏不收集、存储或分享任何个人数据。没有账号、广告、追踪器或内购。你的进度和设置只保存在本设备上。游戏可完全离线运行。", "यह गेम कोई व्यक्तिगत डेटा एकत्र, संग्रहीत या साझा नहीं करता। कोई खाता, विज्ञापन, ट्रैकर या खरीदारी नहीं है। आपकी प्रगति और सेटिंग्स केवल इसी डिवाइस पर रहती हैं। गेम पूरी तरह ऑफ़लाइन चलता है।", "Este juego no recopila, almacena ni comparte datos personales. No hay cuentas, anuncios, rastreadores ni compras. Tu progreso y tus ajustes se quedan solo en este dispositivo. El juego funciona totalmente sin conexión.", "لا تجمع هذه اللعبة أي بيانات شخصية ولا تخزنها ولا تشاركها. لا توجد حسابات أو إعلانات أو متتبعات أو مشتريات. يبقى تقدمك وإعداداتك على هذا الجهاز فقط. تعمل اللعبة بالكامل دون اتصال بالإنترنت.", "Ce jeu ne collecte, ne stocke et ne partage aucune donnée personnelle. Pas de compte, de publicité, de traceur ni d'achat. Votre progression et vos réglages restent uniquement sur cet appareil. Le jeu fonctionne entièrement hors ligne." } },
+            { "creditsBody", new[] { "Tasarım, görseller ve sesler bu oyun için kodla üretilmiştir.\nYazı tipleri: Cinzel ve Manrope (SIL Open Font License).", "Design, art and sound are generated in code for this game.\nFonts: Cinzel and Manrope (SIL Open Font License).", "设计、美术与音效均为本游戏以代码生成。\n字体：Cinzel 与 Manrope（SIL 开放字体许可）。", "डिज़ाइन, चित्र और ध्वनियाँ इस गेम के लिए कोड से बनाई गई हैं।\nफ़ॉन्ट: Cinzel और Manrope (SIL Open Font License)।", "Diseño, arte y sonido generados con código para este juego.\nTipografías: Cinzel y Manrope (SIL Open Font License).", "التصميم والرسوم والأصوات مولّدة برمجيًا لهذه اللعبة.\nالخطوط: Cinzel و Manrope (رخصة SIL للخطوط المفتوحة).", "Design, illustrations et sons générés par code pour ce jeu.\nPolices : Cinzel et Manrope (SIL Open Font License)." } },
+        };
+    }
+}
